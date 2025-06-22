@@ -1,0 +1,1 @@
+from . import hms_departments,hms_doctors,patient,res_partner
