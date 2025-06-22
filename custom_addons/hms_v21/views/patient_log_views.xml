@@ -1,0 +1,20 @@
+<odoo>
+  <data>
+    <record id="view_form_patient_log" model="ir.ui.view">
+      <field name="name">hms.patient.log.form</field>
+      <field name="model">hms.patient.log</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <field name="patient_id"/>
+              <field name="created_by" readonly="1"/>
+              <field name="date" readonly="1"/>
+              <field name="description"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+  </data>
+</odoo>
